@@ -1,5 +1,8 @@
 theme: jekyll-theme-minimal
-title: Oleg Rofman
-logo: images/photo.png
-description: Almaty, Kazakhstan <br>o.rofman (at) mail.ru</br>
-url: https://www.linkedin.com/in/oleg-rofman-40153327/
+author:
+  name: Oleg Rofman
+  logo: images/photo.png
+  description: Almaty, Kazakhstan <br>o.rofman (at) mail.ru</br>
+links:
+  - label: "Email"
+  # url: "https://www.linkedin.com/in/oleg-rofman-40153327/"
