@@ -1,13 +1,10 @@
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale: "en-US"
+title: "Site Title"
 
-# theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
 title: Oleg Rofman
 logo: images/photo.png
-# Links
-  links:
-    - label: "View my LinkedIn"
-    # url: "https://www.linkedin.com/in/oleg-rofman-40153327/"
+url: "https://www.linkedin.com/in/oleg-rofman-40153327/"
 description: Almaty, Kazakhstan <br>o.rofman (at) mail.ru</br>
 
