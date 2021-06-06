@@ -4,6 +4,4 @@ logo: images/photo.png
 description: Almaty, Kazakhstan
 show_downloads: false
 google_analytics:
-    links:
-        - label: "View My LinkedIn Profile"
-        url: "https://www.linkedin.com/in/oleg-rofman-40153327/"
+[View My LinkedIn Profile](https://www.linkedin.com/in/oleg-rofman-40153327/)
