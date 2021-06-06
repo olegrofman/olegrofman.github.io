@@ -4,3 +4,4 @@ description: Almaty, Kazakhstan
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+<p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile </a><br><a href="https://www.linkedin.com/in/oleg-rofman-40153327/">View My LinkedIn Profile </a></p>
