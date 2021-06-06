@@ -1,3 +1,7 @@
+# Site Settings
+locale                   : "en-US"
+title                    : "Site Title"
+
 # theme: jekyll-theme-minimal
 title: Oleg Rofman
 logo: images/photo.png
