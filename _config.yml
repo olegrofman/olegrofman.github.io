@@ -1,10 +1,6 @@
-# Site Settings
-locale: "en-US"
-title: "Site Title"
-
+title: Minimal theme
+logo: /assets/img/logo.png
+description: Minimal is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-minimal
-title: Oleg Rofman
-logo: images/photo.png
-url: "https://www.linkedin.com/in/oleg-rofman-40153327/"
-description: Almaty, Kazakhstan o.rofman (at) mail.ru
-<p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile </a><br><a href="https://twitter.com/Jonnygfrazer">View My Twitter Profile </a></p>
