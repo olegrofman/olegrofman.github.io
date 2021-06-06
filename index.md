@@ -28,11 +28,3 @@ var fun = function lang(l) {
 To see my publication record please check [Scopus](https://www.scopus.com/authid/detail.uri?authorId=35327912500) and [ResearchGate](https://www.researchgate.net/profile/Oleg-Rofman)
 
 ### Talks
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
