@@ -6,5 +6,5 @@ theme: jekyll-theme-minimal
 title: Oleg Rofman
 logo: images/photo.png
 url: "https://www.linkedin.com/in/oleg-rofman-40153327/"
-description: Almaty, Kazakhstan <br>o.rofman (at) mail.ru</br>
+description: Almaty, Kazakhstan o.rofman (at) mail.ru
 <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile </a><br><a href="https://twitter.com/Jonnygfrazer">View My Twitter Profile </a></p>
