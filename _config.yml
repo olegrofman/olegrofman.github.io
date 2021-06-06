@@ -3,4 +3,6 @@ title: Oleg Rofman
 logo: images/photo.png
 description: Almaty, Kazakhstan
 <br>o.rofman (at) mail.ru</br>
-<a href="https://https://www.linkedin.com/in/oleg-rofman-40153327">View My LinkedIn Profile</a>
+external_navigation:
+  - url: https://https://www.linkedin.com/in/oleg-rofman-40153327
+    title: "View My LinkedIn Profile"
