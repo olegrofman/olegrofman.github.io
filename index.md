@@ -25,7 +25,7 @@ var fun = function lang(l) {
 
 ### Publications
 
-To see my publication record please check [Scopus](https://www.scopus.com/authid/detail.uri?authorId=35327912500)
+To see my publication record please check [Scopus](https://www.scopus.com/authid/detail.uri?authorId=35327912500) and [ResearchGate](https://www.researchgate.net/profile/Oleg-Rofman)
 
 ### Talks
 
