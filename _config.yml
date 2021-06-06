@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 title: Oleg Rofman
-avatar: <img src="./Images/photo_logo.jpg" alt="hi" class="inline" height="auto" width="32"/>
+avatar: <img src="./Images/photo_logo.jpg" alt="hi" class="inline" width="32" height="auto"/>
 description: Almaty, Kazakhstan <br> o.rofman@mail.ru </br>
