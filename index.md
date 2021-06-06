@@ -1,6 +1,6 @@
+---
 layout: default
-theme: "minimal-mistakes-jekyll"
-minimal_mistakes_skin: "air"
+---
 
 # Portfolio
 
