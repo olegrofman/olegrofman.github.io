@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yandex on Олег Рофман</title>
+    <link>https://olegrofman.github.io/tags/yandex/</link>
+    <description>Recent content in yandex on Олег Рофман</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olegrofman.github.io/tags/yandex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Исследование надёжности заёмщиков</title>
+      <link>https://olegrofman.github.io/post/project-1/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/post/project-1/</guid>
+      <description>Цели и задачи проекта: Заказчик — кредитный отдел банка. Требуется определить, влияет ли семейное положение или количество детей, а также ежемесячный доход клиента или цель кредита на факт его погашения в срок. Результаты исследования будут учтены при построении модели кредитного скоринга — специальной системы, которая оценивает способность потенциального заёмщика вернуть кредит банку.
+Входные данные: статистика банка о платёжеспособности клиентов предоставлена в виде файла формата csv. Статистика дает описание возраста клиента, его пола, семейного положения и информацию о наличии детей.</description>
+    </item>
+    
+    <item>
+      <title>Исследование объявлений о продаже квартир</title>
+      <link>https://olegrofman.github.io/post/project-2/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/post/project-2/</guid>
+      <description>Цели и задачи проекта: Требуется определить рыночную стоимость объектов недвижимости в зависимости от различных параметров.
+Входные данные: архив объявлений на основе данных сервиса Яндекс.Недвижимость о продаже квартир в Санкт-Петербурге и его окрестностях. По каждой квартире на продажу доступны два вида данных. Первые вписаны пользователем, вторые получены автоматически на основе картографических данных. Например, расстояние до центра, аэропорта, ближайшего парка и водоёма.</description>
+    </item>
+    
+  </channel>
+</rss>

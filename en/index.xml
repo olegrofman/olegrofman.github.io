@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>  on Oleg Rofman</title>
+    <link>https://olegrofman.github.io/en/</link>
+    <description>Recent content in   on Oleg Rofman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olegrofman.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis of Marketing Analytics for Yandex.Afisha</title>
+      <link>https://olegrofman.github.io/en/post/project-6/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/en/post/project-6/</guid>
+      <description>Goals and objectives: analyze data on visits and orders of customers from the Yandex.Afisha website, as well as related advertising costs to highlight unprofitable traffic sources and make recommendations to the marketing department on budget redistribution.
+Input data: server logs with information about visits and orders from the Yandex.Afisha website, as well as information about marketing costs for the period from June 2017 to the end of May 2018.</description>
+    </item>
+    
+    <item>
+      <title>Airline Data Analytics</title>
+      <link>https://olegrofman.github.io/en/post/project-5/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/en/post/project-5/</guid>
+      <description>Goals and objectives: to process a small sample data set with information about the airline&amp;rsquo;s activities in a given period of time in order to analyze the average number of flights to each city and the aircraft models involved.
+Input data: two results of queries from the airline&amp;rsquo;s database with information (i) about the aircraft model and the number of flights for each model in September 2018 and (ii) about the cities and the average number of flights arriving there per day in August 2018.</description>
+    </item>
+    
+    <item>
+      <title>Apartments for Sale</title>
+      <link>https://olegrofman.github.io/en/post/project-2/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/en/post/project-2/</guid>
+      <description>Goals and objectives: It is required to determine the market value of real estate objects depending on various parameters.
+Input data: archive of ads based on data from the Yandex.Real estate service for the sale of apartments in St. Petersburg and neighboring cities. There are two types of data available for each apartment for sale. The first ones are entered by the user, the second ones are obtained automatically based on cartographic data.</description>
+    </item>
+    
+    <item>
+      <title>Best Tariff for a Telecom Company</title>
+      <link>https://olegrofman.github.io/en/post/project-3/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/en/post/project-3/</guid>
+      <description>Goals and objectives: to analyze on a small sample data set, the behavior of customers of the Megaline mobile operator using the Smart and Ultra tariffs. Help to determine which tariff provides the maximum revenue and what factors affect it.
+Input data: a sample data set on 500 Megaline clients with information about their name, age, place of residence, tariff connected, etc., calls / messages / Internet session (date, call duration, traffic volume) and tariff data (subscription fee, service packages, conditions in excess of the tariff package).</description>
+    </item>
+    
+    <item>
+      <title>Borrowers Reliability Research</title>
+      <link>https://olegrofman.github.io/en/post/project-1/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/en/post/project-1/</guid>
+      <description>Goals and objectives: The customer is the credit department of the bank. It is required to determine whether the marital status or the number of children, as well as the client&amp;rsquo;s monthly income or the purpose of the loan, affects the fact of its repayment on time. The results of the study will be taken into account when building a credit scoring model - a special system that assesses the ability of a potential borrower to repay a loan to a bank.</description>
+    </item>
+    
+    <item>
+      <title>Gaming &amp; Video Game Data Analytics</title>
+      <link>https://olegrofman.github.io/en/post/project-4/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/en/post/project-4/</guid>
+      <description>Goals and objectives: analyze data from a global online store and identify patterns that determine the success of a computer game as a potentially popular product.
+Input data: a selection of data from a global online store (more than 16k unique values) with information about the gaming platform, game name, its year of release and genre; game sales by region; critics / users ratings and age ratings.</description>
+    </item>
+    
+    <item>
+      <title>contacts</title>
+      <link>https://olegrofman.github.io/en/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/en/contact/</guid>
+      <description>   Almaty, Kazakhstan      Email: o.rofman@mail.ru   LinkedIn: https://www.linkedin.com/in/oleg-rofman-40153327/    </description>
+    </item>
+    
+  </channel>
+</rss>
