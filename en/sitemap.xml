@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://olegrofman.github.io/en/</loc>
-    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -15,6 +15,81 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://olegrofman.github.io/en/"
+                />
+  </url><url>
+    <loc>https://olegrofman.github.io/en/post/project-7/</loc>
+    <lastmod>2021-07-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://olegrofman.github.io/post/project-7/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://olegrofman.github.io/en/post/project-7/"
+                />
+  </url><url>
+    <loc>https://olegrofman.github.io/en/tags/pandas/</loc>
+    <lastmod>2021-07-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://olegrofman.github.io/tags/pandas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://olegrofman.github.io/en/tags/pandas/"
+                />
+  </url><url>
+    <loc>https://olegrofman.github.io/en/tags/python/</loc>
+    <lastmod>2021-07-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://olegrofman.github.io/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://olegrofman.github.io/en/tags/python/"
+                />
+  </url><url>
+    <loc>https://olegrofman.github.io/en/tags/</loc>
+    <lastmod>2021-07-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://olegrofman.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://olegrofman.github.io/en/tags/"
+                />
+  </url><url>
+    <loc>https://olegrofman.github.io/en/tags/yandex_praktikum/</loc>
+    <lastmod>2021-07-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://olegrofman.github.io/tags/yandex_praktikum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://olegrofman.github.io/en/tags/yandex_praktikum/"
                 />
   </url><url>
     <loc>https://olegrofman.github.io/en/post/project-6/</loc>
@@ -30,66 +105,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://olegrofman.github.io/en/post/project-6/"
-                />
-  </url><url>
-    <loc>https://olegrofman.github.io/en/tags/pandas/</loc>
-    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://olegrofman.github.io/tags/pandas/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://olegrofman.github.io/en/tags/pandas/"
-                />
-  </url><url>
-    <loc>https://olegrofman.github.io/en/tags/python/</loc>
-    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://olegrofman.github.io/tags/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://olegrofman.github.io/en/tags/python/"
-                />
-  </url><url>
-    <loc>https://olegrofman.github.io/en/tags/</loc>
-    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://olegrofman.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://olegrofman.github.io/en/tags/"
-                />
-  </url><url>
-    <loc>https://olegrofman.github.io/en/tags/yandex_praktikum/</loc>
-    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://olegrofman.github.io/tags/yandex_praktikum/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://olegrofman.github.io/en/tags/yandex_praktikum/"
                 />
   </url><url>
     <loc>https://olegrofman.github.io/en/post/project-5/</loc>

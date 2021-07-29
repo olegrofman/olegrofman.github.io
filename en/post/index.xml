@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://olegrofman.github.io/en/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Hypothesis prioritization and analysis of A/B test data</title>
+      <link>https://olegrofman.github.io/en/post/project-7/</link>
+      <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/en/post/project-7/</guid>
+      <description>Goals and objectives: identify priority hypotheses aimed at increasing revenue, as well as analyze the results of an A/B test conducted using data from an online store.
+Input data: (1) a list of hypotheses proposed in order to increase the revenue of the online store, and their quantitative assessment according to various criteria (coverage and impact on users, confidence in the hypothesis, cost estimation); (2) A / B test data with information about visitors to the online store and their orders.</description>
+    </item>
+    
+    <item>
       <title>Analysis of Marketing Analytics for Yandex.Afisha</title>
       <link>https://olegrofman.github.io/en/post/project-6/</link>
       <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
