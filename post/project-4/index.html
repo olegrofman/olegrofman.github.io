@@ -40,7 +40,7 @@
 <meta itemprop="name" content="Исследование в области компьютерных игр">
 <meta itemprop="description" content=" "><meta itemprop="datePublished" content="2021-06-13T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-06-13T00:00:00+00:00" />
-<meta itemprop="wordCount" content="234">
+<meta itemprop="wordCount" content="210">
 <meta itemprop="keywords" content="python,pandas,yandex_praktikum," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Исследование в области компьютерных игр"/>
 <meta name="twitter:description" content=" "/>
@@ -210,11 +210,9 @@
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Цели и задачи проекта:</strong> проанализировать данные глобального интернет-магазина и выявить закономерности, определяющие успешность компьютерной игры как потенциально популярного продукта.</p>
 <p><strong>Входные данные:</strong> выборка данных глобального интернет-магазина (более 16 тыс. уникальных значений) с информацией об игровой платформе; о названии игры, её годе выпуска и жанре; объемам продаж игр по регионам; оценкам критиков/пользователей и возрастном рейтинге.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3"><span style="color:#aaa;font-style:italic"># Включим в датасет отзывы с рейтингом выше 0, чтобы исключить влияние пропусков</span>
-df_critics_ranking_ps4 = df_actual.query(<span style="color:#a50">&#39;critic_score &gt; 0 and platform == &#34;ps4&#34;&#39;</span>)
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">df_critics_ranking_ps4 = df_actual.query(<span style="color:#a50">&#39;critic_score &gt; 0 and platform == &#34;ps4&#34;&#39;</span>)
 df_users_ranking_ps4 = df_actual.query(<span style="color:#a50">&#39;user_score &gt; 0 and platform == &#34;ps4&#34;&#39;</span>)
 
-<span style="color:#aaa;font-style:italic"># Вычислим коэффициенты корреляции между продажами и рейтингом критиков / пользователей</span>
 corr_total_sales_critics_rank_ps4 = df_critics_ranking_ps4[[<span style="color:#a50">&#39;critic_score&#39;</span>, <span style="color:#a50">&#39;total_sales&#39;</span>]].corr()
 corr_total_sales_users_rank_ps4 = df_users_ranking_ps4[[<span style="color:#a50">&#39;user_score&#39;</span>, <span style="color:#a50">&#39;total_sales&#39;</span>]].corr()
 
