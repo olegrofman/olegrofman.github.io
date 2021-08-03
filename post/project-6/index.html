@@ -40,7 +40,7 @@
 <meta itemprop="name" content="Анализ маркетинговой аналитики Яндекс.Афиши">
 <meta itemprop="description" content=" "><meta itemprop="datePublished" content="2021-06-15T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-06-15T00:00:00+00:00" />
-<meta itemprop="wordCount" content="133">
+<meta itemprop="wordCount" content="100">
 <meta itemprop="keywords" content="python,pandas,yandex_praktikum," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Анализ маркетинговой аналитики Яндекс.Афиши"/>
 <meta name="twitter:description" content=" "/>
@@ -210,23 +210,6 @@
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Цели и задачи проекта:</strong> проанализировать данные о визитах и заказах клиентов с сайта &ldquo;Яндекс.Афиши&rdquo;, а также связанных рекламных расходов для выделения невыгодных источников трафика и выработки рекомендаций отделу маркетинга о перераспределении бюджета.</p>
 <p><strong>Входные данные:</strong> логи сервера с информацией о посещениях и заказах с сайта Яндекс.Афиши, а также информация о расходах на маркетинг за период с июня 2017 по конец мая 2018 года.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">yaxis_name = cohorts[<span style="color:#a50">&#39;first_session_month&#39;</span>].unique().astype(<span style="color:#a50">&#39;datetime64[M]&#39;</span>)
-
-fig, ax = plt.subplots(figsize=(<span style="color:#099">20</span>, <span style="color:#099">15</span>))
-g = sns.heatmap(retention_pivot,
-                annot=<span style="color:#00a">True</span>, fmt=<span style="color:#a50">&#39;.1%&#39;</span>, linewidths=<span style="color:#099">.1</span>,
-                vmin=<span style="color:#099">0.015</span>, vmax=<span style="color:#099">0.08</span>,
-                cmap=<span style="color:#a50">&#39;vlag&#39;</span>,
-                yticklabels=yaxis_name
-)
-g.set_title(<span style="color:#a50">&#39;Когорты: коэффициент удержания (retention rate)&#39;</span>)
-g.set_ylabel(<span style="color:#a50">&#39;Когорты по месяцам&#39;</span>)
-g.set_xlabel(<span style="color:#a50">&#39;Срок жизни когорты (в месяцах)&#39;</span>)
-
-plt.show()
-</code></pre></div><figure><img src="https://olegrofman.github.io/images/plot_afisha.jpg"/>
-</figure>
-
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc_KZX2MlhanzSfEqPobPlAFKxEeY1c35AV7zoPMSmat6yJfw/viewform?usp=sf_link">Ссылка на pdf проекта (требуется ввести пароль*)</a></p>
 <p><a href="https://github.com/olegrofman/portfolio/blob/99ade4eea03f5b00e389cd2ee6bcc2210a0feb0e/afisha.ipynb">Ссылка на проект в репозитории GitHub (требуется авторизация и запрос на доступ*)</a></p>
 <ul>
