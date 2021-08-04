@@ -40,7 +40,7 @@
 <meta itemprop="name" content="Аналитика в авиакомпании">
 <meta itemprop="description" content=" "><meta itemprop="datePublished" content="2021-06-13T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-06-13T00:00:00+00:00" />
-<meta itemprop="wordCount" content="151">
+<meta itemprop="wordCount" content="110">
 <meta itemprop="keywords" content="python,pandas,yandex_praktikum," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Аналитика в авиакомпании"/>
 <meta name="twitter:description" content=" "/>
@@ -210,19 +210,7 @@
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Цели и задачи проекта:</strong> обработать небольшую выборку данных с информацией о деятельности авиакомпании в заданный период времени с целью анализа среднего количества рейсов в каждый город и задействованных моделей самолетов.</p>
 <p><strong>Входные данные:</strong> два результата запросов из базы данных авиакомпании с информацией (1) о модели самолета и количестве рейсов для каждой модели в сентябре 2018 года и (2) о городах и среднем количестве рейсов, прибывающих в них за день в августе 2018 года.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">plt.figure(figsize=(<span style="color:#099">10</span>, <span style="color:#099">6</span>))
-
-g = sns.barplot(x=<span style="color:#a50">&#39;model&#39;</span>, y=<span style="color:#a50">&#39;flights_amount&#39;</span>, data = df_query1, color = <span style="color:#a50">&#39;c&#39;</span>)
-g.set_xticklabels(g.get_xticklabels(), rotation=<span style="color:#099">90</span>)
-g.set_title(<span style="color:#a50">&#39;Зависимость количества рейсов авиакомпании от модели самолета в сентябре 2018 года&#39;</span>)
-g.set_ylabel(<span style="color:#a50">&#39;Количество рейсов (ед.)&#39;</span>)
-g.set_xlabel(<span style="color:#a50">&#39;Модель самолета&#39;</span>)
-sns.despine(left=<span style="color:#00a">True</span>, bottom=<span style="color:#00a">False</span>, right=<span style="color:#00a">True</span>)
-
-<span style="color:#aaa;font-style:italic"># Аннотация и вывод графика</span>
-annotation_graphs(g, <span style="color:#a50">&#39;v&#39;</span>)
-plt.show()
-</code></pre></div><figure><img src="https://olegrofman.github.io/images/plot_aircompany.jpg"/>
+<figure><img src="https://olegrofman.github.io/images/plot_aircompany.jpg"/>
 </figure>
 
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfQb9JSJupxlxB-dXraK5ZmTK4WnxBAVAhQbjDuVCF8QX3OFw/viewform?usp=sf_link">Ссылка на pdf проекта (требуется ввести пароль*)</a></p>

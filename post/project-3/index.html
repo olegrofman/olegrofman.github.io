@@ -40,7 +40,7 @@
 <meta itemprop="name" content="Определение перспективного тарифа для телеком компании">
 <meta itemprop="description" content=" "><meta itemprop="datePublished" content="2021-06-13T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-06-13T00:00:00+00:00" />
-<meta itemprop="wordCount" content="145">
+<meta itemprop="wordCount" content="108">
 <meta itemprop="keywords" content="python,pandas,yandex_praktikum," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Определение перспективного тарифа для телеком компании"/>
 <meta name="twitter:description" content=" "/>
@@ -210,37 +210,7 @@
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Цели и задачи проекта:</strong> проанализировать на небольшой выборке данных поведение клиентов оператора сотовой связи компании «Мегалайн», использующих тарифы &ldquo;Смарт&rdquo; и &ldquo;Ультра&rdquo;, с целью определения, какой тариф обеспечивает бо́льшую выручку и от чего она зависит.</p>
 <p><strong>Входные данные:</strong> выборка данных 500-т пользователей «Мегалайна» с информацией о пользователе (имя, возраст, местожительство, подключенный тариф и др.), звонках/сообщениях/интернет-сессии (дата, длительность звонка, объем трафика) и данных о тарифах (абонентская плата, пакеты услуг, условия сверх тарифного пакета).</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">df_monthly_revenue_smart = df.query(<span style="color:#a50">&#39;tariff == &#34;smart&#34;&#39;</span>)
-df_monthly_revenue_ultra = df.query(<span style="color:#a50">&#39;tariff == &#34;ultra&#34;&#39;</span>)
-
-ax = df_monthly_revenue_smart.plot(
-    kind=<span style="color:#a50">&#39;hist&#39;</span>,
-    y=<span style="color:#a50">&#39;monthly_revenue&#39;</span>,
-    histtype=<span style="color:#a50">&#39;barstacked&#39;</span>,
-    bins=<span style="color:#099">15</span>,
-    linewidth=<span style="color:#099">5</span>,
-    alpha=<span style="color:#099">0.7</span>,
-    label=<span style="color:#a50">&#39;Smart&#39;</span>
-)
-
-df_monthly_revenue_ultra.plot(
-    kind=<span style="color:#a50">&#39;hist&#39;</span>,
-    y=<span style="color:#a50">&#39;monthly_revenue&#39;</span>,
-    histtype=<span style="color:#a50">&#39;barstacked&#39;</span>,
-    bins=<span style="color:#099">15</span>,
-    linewidth=<span style="color:#099">5</span>,
-    alpha=<span style="color:#099">0.7</span>,
-    label=<span style="color:#a50">&#39;Ultra&#39;</span>,
-    ax=ax,
-    grid=<span style="color:#00a">True</span>,
-    legend=<span style="color:#00a">True</span>
-)
-
-plt.xlabel(<span style="color:#a50">&#39;Выручка (руб.)&#39;</span>)
-plt.ylabel(<span style="color:#a50">&#39;Частота&#39;</span>)
-
-plt.show()
-</code></pre></div><figure><img src="https://olegrofman.github.io/images/plot_telecom.jpg"/>
+<figure><img src="https://olegrofman.github.io/images/plot_telecom.jpg"/>
 </figure>
 
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScHnsOnd_X7ZhEAimiu-QG7kGK1l_jA0khtU2Ta-voYU2IhOw/viewform?usp=sf_link">Ссылка на pdf проекта (требуется ввести пароль*)</a></p>

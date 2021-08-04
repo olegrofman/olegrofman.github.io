@@ -40,7 +40,7 @@
 <meta itemprop="name" content="Исследование в области компьютерных игр">
 <meta itemprop="description" content=" "><meta itemprop="datePublished" content="2021-06-13T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-06-13T00:00:00+00:00" />
-<meta itemprop="wordCount" content="210">
+<meta itemprop="wordCount" content="91">
 <meta itemprop="keywords" content="python,pandas,yandex_praktikum," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Исследование в области компьютерных игр"/>
 <meta name="twitter:description" content=" "/>
@@ -213,37 +213,7 @@
 <figure><img src="https://olegrofman.github.io/images/plot_games.jpg"/>
 </figure>
 
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">df_critics_ranking_ps4 = df_actual.query(<span style="color:#a50">&#39;critic_score &gt; 0 and platform == &#34;ps4&#34;&#39;</span>)
-df_users_ranking_ps4 = df_actual.query(<span style="color:#a50">&#39;user_score &gt; 0 and platform == &#34;ps4&#34;&#39;</span>)
-
-corr_total_sales_critics_rank_ps4 = df_critics_ranking_ps4[[<span style="color:#a50">&#39;critic_score&#39;</span>, <span style="color:#a50">&#39;total_sales&#39;</span>]].corr()
-corr_total_sales_users_rank_ps4 = df_users_ranking_ps4[[<span style="color:#a50">&#39;user_score&#39;</span>, <span style="color:#a50">&#39;total_sales&#39;</span>]].corr()
-
-fig, axes = plt.subplots(nrows = <span style="color:#099">2</span>, ncols = <span style="color:#099">2</span>, figsize=(<span style="color:#099">13</span>, <span style="color:#099">13</span>), gridspec_kw={<span style="color:#a50">&#39;hspace&#39;</span>: <span style="color:#099">0.25</span>})
-g = df_critics_ranking_ps4.plot(ax=axes[<span style="color:#099">0</span>,<span style="color:#099">0</span>], x=<span style="color:#a50">&#39;critic_score&#39;</span>, y=<span style="color:#a50">&#39;total_sales&#39;</span>, kind=<span style="color:#a50">&#39;scatter&#39;</span>, alpha = <span style="color:#099">0.5</span>, grid=<span style="color:#00a">True</span>)
-plt.ylim([<span style="color:#099">0.001</span>,<span style="color:#099">100</span>])
-g.set_yscale(<span style="color:#a50">&#39;log&#39;</span>)
-g.set_title(<span style="color:#a50">&#39;Зависимость объема продаж от рейтинга критиков&#39;</span>)
-g.set_ylabel(<span style="color:#a50">&#39;Количество продаж (млн.копий)&#39;</span>)
-g.set_xlabel(<span style="color:#a50">&#39;Оценка критиков&#39;</span>)
-
-g = df_users_ranking_ps4.plot(ax=axes[<span style="color:#099">0</span>,<span style="color:#099">1</span>], x=<span style="color:#a50">&#39;user_score&#39;</span>, y=<span style="color:#a50">&#39;total_sales&#39;</span>, kind=<span style="color:#a50">&#39;scatter&#39;</span>, alpha = <span style="color:#099">0.5</span>, grid=<span style="color:#00a">True</span>)
-g.set_yscale(<span style="color:#a50">&#39;log&#39;</span>)
-g.set_title(<span style="color:#a50">&#39;Зависимость объема продаж от рейтинга пользователей&#39;</span>)
-g.set_ylabel(<span style="color:#a50">&#39;Количество продаж (млн.копий)&#39;</span>)
-g.set_xlabel(<span style="color:#a50">&#39;Оценка пользователей&#39;</span>)
-
-g = sns.heatmap(corr_total_sales_critics_rank_ps4,
-                annot=<span style="color:#00a">True</span>,
-                fmt=<span style="color:#a50">&#39;.2f&#39;</span>, vmin=-<span style="color:#099">1</span>, vmax=<span style="color:#099">1</span>, linewidths=<span style="color:#099">.1</span>,
-                cmap=<span style="color:#a50">&#39;vlag&#39;</span>, ax=axes[<span style="color:#099">1</span>,<span style="color:#099">0</span>])
-g.set_title(<span style="color:#a50">&#39;Коэффициенты корреляции </span><span style="color:#a50">\n</span><span style="color:#a50"> между рейтингом критиков и продажами&#39;</span>)
-g = sns.heatmap(corr_total_sales_users_rank_ps4,
-                annot=<span style="color:#00a">True</span>, fmt=<span style="color:#a50">&#39;.2f&#39;</span>, vmin=-<span style="color:#099">1</span>, vmax=<span style="color:#099">1</span>, linewidths=<span style="color:#099">.1</span>,
-                cmap=<span style="color:#a50">&#39;vlag&#39;</span>, ax=axes[<span style="color:#099">1</span>,<span style="color:#099">1</span>])
-g.set_title(<span style="color:#a50">&#39;Коэффициенты корреляции </span><span style="color:#a50">\n</span><span style="color:#a50"> между рейтингом пользователей и продажами&#39;</span>)
-plt.show()
-</code></pre></div><p><a href="https://docs.google.com/forms/d/e/1FAIpQLScrL1Y5wjzVBTRAHscJy1h1nYgcLPNdkz5Qrfu5XBr6uy7cSQ/viewform?usp=sf_link">Ссылка на pdf проекта (требуется ввести пароль*)</a></p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScrL1Y5wjzVBTRAHscJy1h1nYgcLPNdkz5Qrfu5XBr6uy7cSQ/viewform?usp=sf_link">Ссылка на pdf проекта (требуется ввести пароль*)</a></p>
 <p><a href="https://github.com/olegrofman/portfolio/blob/53917a226bcfd8d38983ba2ae6f96a479557e612/games.ipynb">Ссылка на проект в репозитории GitHub (требуется авторизация и запрос на доступ*)</a></p>
 <ul>
 <li>соблюдение требований авторского права Яндекс.Практикум требует от меня не выкладывать полное описание проектов и их результатов в открытый доступ.</li>

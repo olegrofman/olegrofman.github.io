@@ -40,7 +40,7 @@
 <meta itemprop="name" content="Приоритизация гипотез и анализ данных A/B-теста">
 <meta itemprop="description" content=" "><meta itemprop="datePublished" content="2021-07-29T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-07-29T00:00:00+00:00" />
-<meta itemprop="wordCount" content="140">
+<meta itemprop="wordCount" content="100">
 <meta itemprop="keywords" content="python,pandas,yandex_praktikum," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Приоритизация гипотез и анализ данных A/B-теста"/>
 <meta name="twitter:description" content=" "/>
@@ -210,18 +210,7 @@
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Цели и задачи проекта:</strong> выделить приоритетные гипотезы, направленные на увеличение выручки, а также проанализировать результаты A/B-теста, проводимого на основе данных интернет-магазина.</p>
 <p><strong>Входные данные:</strong> (1) перечень гипотез, предложенных с целью увеличения выручки интернет-магазина, и их количественная оценка по различным критериям (охват и влияние на пользователей, уверенность в гипотезе, оценка затрат); (2) данные А/В теста с информацией о посетителях интернет-магазина и совершенных ими заказах.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">alpha = <span style="color:#099">0.05</span>  <span style="color:#aaa;font-style:italic"># критический уровень статистической значимости</span>
-results_conversion_raw_data = stats.mannwhitneyu(sample_a, sample_b, alternative = <span style="color:#a50">&#39;two-sided&#39;</span>)
-
-<span style="color:#0aa">print</span>(<span style="color:#a50">&#39;p-значение: &#39;</span>, results_conversion_raw_data.pvalue.round(<span style="color:#099">3</span>))
-
-<span style="color:#00a">if</span> results_conversion_raw_data.pvalue &lt; alpha:
-    <span style="color:#0aa">print</span>(<span style="color:#a50">&#39;Отвергаем нулевую гипотезу: разница статистически значима&#39;</span>)
-<span style="color:#00a">else</span>:
-    <span style="color:#0aa">print</span>(
-        <span style="color:#a50">&#39;Не получилось отвергнуть нулевую гипотезу: разница статистически не значима&#39;</span>
-    )
-</code></pre></div><figure><img src="https://olegrofman.github.io/images/plot_hypothesis.jpg"/>
+<figure><img src="https://olegrofman.github.io/images/plot_hypothesis.jpg"/>
 </figure>
 
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdrgQ4dee5ObMMx-FJZ1QqadZbdh3gUdkJzv_AFT7_GSd1knw/viewform?usp=sf_link">Ссылка на pdf проекта (требуется ввести пароль*)</a></p>
