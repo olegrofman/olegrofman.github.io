@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>проекты on Олег Рофман</title>
-    <link>https://olegrofman.github.io/post/</link>
-    <description>Recent content in проекты on Олег Рофман</description>
+    <title>   on Олег Рофман</title>
+    <link>https://olegrofman.github.io/</link>
+    <description>Recent content in    on Олег Рофман</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olegrofman.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olegrofman.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Рынок заведений общественного питания Москвы</title>
       <link>https://olegrofman.github.io/post/project-8/</link>
@@ -93,6 +93,15 @@
       <guid>https://olegrofman.github.io/post/project-3/</guid>
       <description>Цели и задачи проекта: проанализировать на небольшой выборке данных поведение клиентов оператора сотовой связи компании «Мегалайн», использующих тарифы &amp;ldquo;Смарт&amp;rdquo; и &amp;ldquo;Ультра&amp;rdquo;, с целью определения, какой тариф обеспечивает бо́льшую выручку и от чего она зависит.
 Входные данные: выборка данных 500-т пользователей «Мегалайна» с информацией о пользователе (имя, возраст, местожительство, подключенный тариф и др.), звонках/сообщениях/интернет-сессии (дата, длительность звонка, объем трафика) и данных о тарифах (абонентская плата, пакеты услуг, условия сверх тарифного пакета).</description>
+    </item>
+    
+    <item>
+      <title>контакты</title>
+      <link>https://olegrofman.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/contact/</guid>
+      <description>   Алматы, Казахстан      Email: o.rofman@mail.ru   LinkedIn: https://www.linkedin.com/in/oleg-rofman-40153327/    </description>
     </item>
     
   </channel>
