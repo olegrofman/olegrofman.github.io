@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>   on Олег Рофман</title>
-    <link>https://olegrofman.github.io/</link>
-    <description>Recent content in    on Олег Рофман</description>
+    <title>проекты on Олег Рофман</title>
+    <link>https://olegrofman.github.io/post/</link>
+    <description>Recent content in проекты on Олег Рофман</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olegrofman.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olegrofman.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Рынок заведений общественного питания Москвы</title>
+      <link>https://olegrofman.github.io/post/project-8/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/post/project-8/</guid>
+      <description>Цели и задачи проекта: проанализировать текущее положение дел на рынке заведений общественного питания Москвы с целью выработки рекомендаций для инвесторов по открытию кафе с роботами-официантами.
+Входные данные: данные о заведениях общественного питания Москвы с информацией о названии и типе объекта общественного питания, его принадлежности к сетевому распространению, адресе расположения и количестве посадочных мест.
+Внешние данные: использовались для получения дополнительной информации об административно-территориальном делении Москвы, а также геоданных объектов недвижимости, в которых располагаются заведения питания и соответствующих им районов.</description>
+    </item>
+    
     <item>
       <title>Приоритизация гипотез и анализ данных A/B-теста</title>
       <link>https://olegrofman.github.io/post/project-7/</link>
@@ -82,15 +93,6 @@
       <guid>https://olegrofman.github.io/post/project-3/</guid>
       <description>Цели и задачи проекта: проанализировать на небольшой выборке данных поведение клиентов оператора сотовой связи компании «Мегалайн», использующих тарифы &amp;ldquo;Смарт&amp;rdquo; и &amp;ldquo;Ультра&amp;rdquo;, с целью определения, какой тариф обеспечивает бо́льшую выручку и от чего она зависит.
 Входные данные: выборка данных 500-т пользователей «Мегалайна» с информацией о пользователе (имя, возраст, местожительство, подключенный тариф и др.), звонках/сообщениях/интернет-сессии (дата, длительность звонка, объем трафика) и данных о тарифах (абонентская плата, пакеты услуг, условия сверх тарифного пакета).</description>
-    </item>
-    
-    <item>
-      <title>контакты</title>
-      <link>https://olegrofman.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://olegrofman.github.io/contact/</guid>
-      <description>   Алматы, Казахстан      Email: o.rofman@mail.ru   LinkedIn: https://www.linkedin.com/in/oleg-rofman-40153327/    </description>
     </item>
     
   </channel>
