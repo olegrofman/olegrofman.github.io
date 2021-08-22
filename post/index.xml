@@ -6,7 +6,18 @@
     <description>Recent content in проекты on Олег Рофман</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olegrofman.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olegrofman.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Рынок заведений общественного питания Москвы</title>
+      <link>https://olegrofman.github.io/post/project-8/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/post/project-8/</guid>
+      <description>Цели и задачи проекта: проанализировать текущее положение дел на рынке заведений общественного питания Москвы с целью выработки рекомендаций для инвесторов по открытию кафе с роботами-официантами.
+Входные данные: данные о заведениях общественного питания Москвы с информацией о названии и типе объекта общественного питания, его принадлежности к сетевому распространению, адресе расположения и количестве посадочных мест.
+Внешние данные: использовались для получения дополнительной информации об административно-территориальном делении Москвы, а также геоданных объектов недвижимости, в которых располагаются заведения питания и соответствующих им районов.</description>
+    </item>
+    
     <item>
       <title>Приоритизация гипотез и анализ данных A/B-теста</title>
       <link>https://olegrofman.github.io/post/project-7/</link>
