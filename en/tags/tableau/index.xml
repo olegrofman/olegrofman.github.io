@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tableau on Oleg Rofman</title>
+    <link>https://olegrofman.github.io/en/tags/tableau/</link>
+    <description>Recent content in tableau on Oleg Rofman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olegrofman.github.io/en/tags/tableau/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis of User Interaction with Yandex.Zen</title>
+      <link>https://olegrofman.github.io/en/post/project-10/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/en/post/project-10/</guid>
+      <description>Goals and objectives: construct a dashboard and analyze user interaction with the Yandex.Zen cards.
+Input data: raw data from the database including events of user interaction with Yandex.Zen cards. Terms of reference for building a dashboard.
+ Link to dashboard
+Link to presentation
+ I respect the rights of copyright holders of the course that belongs to Yandex.Prakticum and do not share a full description of the projects and their results in open access.</description>
+    </item>
+    
+  </channel>
+</rss>

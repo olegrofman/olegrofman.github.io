@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ML on Oleg Rofman</title>
+    <link>https://olegrofman.github.io/en/tags/ml/</link>
+    <description>Recent content in ML on Oleg Rofman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olegrofman.github.io/en/tags/ml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning Models for Predicting Churn of Customers of a Network of Fitness Centers</title>
+      <link>https://olegrofman.github.io/en/post/project-11/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/en/post/project-11/</guid>
+      <description>Goals and objectives: analyze the data of the fitness center in order to develop a forecast of customer churn and recommend a strategy for their retention.
+Input data: fitness center clients&#39; questionnaires, combined into a dataset according to a number of characteristics, including the client&amp;rsquo;s gender and age, the area of residence or work in relation to the location of fitness center, the client&amp;rsquo;s participation in the affiliate program, the use of a promo code, etc.</description>
+    </item>
+    
+  </channel>
+</rss>
