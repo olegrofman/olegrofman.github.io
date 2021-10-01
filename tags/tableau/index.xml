@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tableau on Олег Рофман</title>
+    <link>https://olegrofman.github.io/tags/tableau/</link>
+    <description>Recent content in tableau on Олег Рофман</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olegrofman.github.io/tags/tableau/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Анализ пользовательского взаимодействия с карточками статей Яндекс.Дзен</title>
+      <link>https://olegrofman.github.io/post/project-10/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/post/project-10/</guid>
+      <description>Цели и задачи проекта: построить дашборд и проанализировать пользовательское взаимодействие с карточками статей сервиса &amp;ldquo;Яндекс.Дзен&amp;rdquo;.
+Входные данные: cырые данные базы данных о событиях взаимодействия пользователей с карточками Яндекс.Дзен. Техническое задание по построению дашборда.
+ Ссылка на дашборд
+Ссылка на презентацию
+ соблюдение требований авторского права Яндекс.Практикум требует от меня не выкладывать полное описание проектов и их результатов в открытый доступ.  </description>
+    </item>
+    
+  </channel>
+</rss>

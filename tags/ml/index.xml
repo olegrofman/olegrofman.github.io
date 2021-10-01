@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ML on Олег Рофман</title>
+    <link>https://olegrofman.github.io/tags/ml/</link>
+    <description>Recent content in ML on Олег Рофман</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olegrofman.github.io/tags/ml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Машинное обучение моделей по прогнозированию оттока клиентов сети фитнес-центров</title>
+      <link>https://olegrofman.github.io/post/project-11/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://olegrofman.github.io/post/project-11/</guid>
+      <description>Цели и задачи проекта: провести анализ данных фитнес-центра с целью разработки прогноза вероятности оттока клиентов и последующей подготовки стратегии по их удержанию.
+Входные данные: анкеты клиентов фитнес-центра, объединённые в датасет по ряду признаков, включающих пол и возраст клиента, район проживания/работы относительно фитнес-центра, участие клиента в партнёрской программе, использование промо-кода, наличие контактного телефона и время с момента первогообращения. Во входных данных также содержится информация на основе журнала посещений, где указана длительность абонемента и срок его истечения, факт посещения групповых занятий, средняя частота посещений фитнес-центра, суммарная выручка от использования других услуг центра.</description>
+    </item>
+    
+  </channel>
+</rss>
